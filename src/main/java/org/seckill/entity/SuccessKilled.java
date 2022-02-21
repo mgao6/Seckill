@@ -1,5 +1,7 @@
 package org.seckill.entity;
 
+import ch.qos.logback.core.pattern.FormatInfo;
+
 import java.util.*;
 
 
@@ -64,6 +66,7 @@ public class SuccessKilled {
     Scanner in = new Scanner(System.in);
     String[] s = in.nextLine().split(" ");
     int[] int_s = new int[s.length];
+    int n = int_s.length;
     for(int i = 0; i < n; i++){
         int_s[i] = Integer.parseInt(s[i]);
     }
